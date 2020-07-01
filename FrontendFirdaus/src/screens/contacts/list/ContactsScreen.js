@@ -30,6 +30,7 @@ function RowItem({ onPress, contact }) {
             <ListItem style={styles.item} onPress={() => onPress(contact)}>
                 <Left><Button style={styles.iconHome}>
                     <Thumbnail square source={{ uri: "https://cdn0.iconfinder.com/data/icons/flat-design-business-set-3/24/people-employee-512.png" }} />
+                    {/* <Thumbnail square source={{ uri: contact.photo }} /> */}
                 </Button>
                 </Left>
                 <Body>
